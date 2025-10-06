@@ -1,12 +1,10 @@
 addNumbers x = x + x
 
-main = print $ addNumbers 1 
+main = print $ addNumbers $ sqrt 25 
 
-{-works. Now addNumbers will eval with its argument, and gain a return value.
+{-works. We are not limited to only one use of the dollar sign operator.
 
--addNumbers will take 1, then calculate 1 + 1, which is 2.
-
--2 will then be returned to the function 'print'.
+This improves readability and saves keystrokes from the extra parentheses.
 
 -}
 
