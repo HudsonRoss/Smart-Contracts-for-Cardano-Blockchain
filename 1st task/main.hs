@@ -1,1 +1,3 @@
-main = putStrLn "Hello, World!"
+setDate = putStrLn "Set the date."
+
+main = setDate
